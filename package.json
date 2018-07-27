@@ -1,0 +1,28 @@
+{
+  "name": "blogaseq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@brainhubeu/hadron-core": "^1.0.0",
+    "@brainhubeu/hadron-express": "*",
+    "@brainhubeu/hadron-typeorm": "*",
+    "bcrypt": "^3.0.0",
+    "body-parser": "*",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mysql": "*"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-config-brainhub": "^1.9.0",
+    "eslint-plugin-babel": "^5.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.6.1",
+    "nodemon": "*"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
+}
